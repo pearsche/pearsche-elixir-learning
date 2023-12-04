@@ -5,7 +5,9 @@
 			url = "github:NixOS/nixpkgs/nixos-unstable";
 		};
 		# FIXME: Do I really need this?
-		flake-utisl = "github:numtide/flake-utils";
+		flake-utils = {
+			url = "github:numtide/flake-utils";
+		};
 	};
 
 
